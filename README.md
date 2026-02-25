@@ -2,6 +2,9 @@
 
 A simple counter application built with **vanilla JavaScript**, inspired by the classic Passenger Counter tutorial and extended with additional logic and UI/UX improvements.
 
+## Live Demo
+👉https://counter-app-eren.netlify.app/
+
 ## Features
 - Increment and decrement buttons (+ / -)
 - Prevents negative values
