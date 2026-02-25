@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Counter</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="texts">
+  <h1>Counter</h1>
+  <h2 id="number">0</h2>
+  </div>
+    
+  <div class="buttons">
+    <div class="top-btn">
+ <button id="btn-inc" onclick="increment()">+</button>
+ <button id="btn-dec" onclick="decrement()">-</button>
+    </div>
+
+  <button id="btn-save" onclick="save()">Save</button>
+  <button id="btn-reset" onclick="reset()">Reset</button>
+  <button id="btn-clear" onclick="clearhistory()">Clear</button>
+  </div>
+
+  <p id="prev">Previous entries = </p>
+ 
+
+  <script src="index.js"></script>
+</body>
+</html>
